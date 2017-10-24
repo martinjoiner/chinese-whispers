@@ -11,7 +11,7 @@ Players must receive a POST request in the following format:
 }
 ```
 
-And return JSON response that **must** include a 2 key-pair value for:
+And return JSON response that **must** include a 3 key-pair values:
  - `hear` - The phrase from the previous
  - `say` - The new phrase
  - `explanation` which describes how you got there _(eg. This word was on the same page as this Wiki page)_
