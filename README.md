@@ -24,7 +24,7 @@ And return JSON response that **must** include a 3 key-pair values:
 
 
 
-##Suggested methods
+## Suggested methods
  - twitter
  - facebook
  - instagram 
