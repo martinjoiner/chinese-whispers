@@ -10,24 +10,28 @@ HTML interface. Input box to start the game. Text element to contain the output 
 
 ## Players
 
-Players must receive a POST request in the following format:
+Players must receive a POST request that accepts a single parameter called `hear`:
 ```
 {
-    hear: 'fdsf'
+    hear: 'Lovely biscuit'
 }
 ```
 
-And return JSON response that **must** include a 3 key-pair values:
- - `hear` - The phrase from the previous
- - `say` - The new phrase
- - `explanation` which describes how you got there _(eg. This word was on the same page as this Wiki page)_
+It must return JSON response that **must** include the following 3 key-pair values:
+ - `heard` - The phrase exactly as it was passed to the player _(eg. 'Lovely biscuit')_.
+ - `said` - The new phrase, whispered by the player _(eg. 'Medical emergency')_.
+ - `explanation` which describes how you got there _(eg. 'This word was on the same page as this Wiki page')_.
 
 
-
-## Suggested methods
+## Suggested sources
  - twitter
  - facebook
  - instagram 
  - youtube
  - sound cloud
+ - Wikipedia page
+ - User comments
+ - Related news articles
+ - TV listings
+ - IMDB data
 
