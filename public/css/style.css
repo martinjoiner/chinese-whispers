@@ -1,0 +1,33 @@
+
+body {
+	font-family: 'Cormorant Infant', serif;
+	padding: 1em;
+	text-align: center;
+}
+
+h1 {
+	font-size: 4em;
+}
+
+#input {
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+#input > * {
+	font-size: 2em;
+	font-family: 'Cormorant Infant', serif;
+}
+
+#input > button {
+	cursor: pointer;
+	background-color: #E8E8E8;
+	border: 1px solid #333;
+	-webkit-appearance: none;
+}
+
+button:before {
+	content: '\1F5E3';
+	margin-right: 5px;
+}
